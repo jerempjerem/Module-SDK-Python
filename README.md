@@ -1,6 +1,6 @@
 # Module Python SDK (Non official)
 
-**About Module**
+**About Module 📖✨**
 
 Module is providing endpoints to democratize access to existing data on a free and open blockchain. With Module, data is made available to developers without the hassle of creating custom data pipelines or running a full Ethereum node.
 
