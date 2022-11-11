@@ -23,5 +23,3 @@ class Module():
         self.metadata = Metadata(client)
         self.nft = NFT(client)
         self.central = Central(client)
-
-Module()
