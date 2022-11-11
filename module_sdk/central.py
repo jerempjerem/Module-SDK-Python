@@ -27,7 +27,7 @@ class Central():
                 error = response.json().get('error')
                 cprint(f'Module API Error: {error}', Color.ERROR)
                 return
-            cprint(f'Module API Error: Unknown', Color.ERROR)
+            cprint(f'Module API Unknown Error: {response}', Color.ERROR)
             return
         except TimeoutException:
             cprint(f'Module API Timeout Error', Color.ERROR)
