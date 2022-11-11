@@ -28,7 +28,7 @@ We welcome feedback and pull requests! Either open a ticket in they discord or o
 # Getting Started
 This module requires Python 3 or later. Python 3
 ```zsh
-pip install module_sdk
+pip install module-sdk
 ```
 
 After installing the SDK, import it using the following code
