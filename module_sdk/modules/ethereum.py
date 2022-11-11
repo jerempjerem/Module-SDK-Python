@@ -1,5 +1,5 @@
-from .utils.types import Color, GetFullTX, GetBlock, GetTransaction, GetTransactionReciept
-from .utils.datasets import FullTx, Block, Transaction, TransactionReciept
+from ..utils.types import Color, GetFullTX, GetBlock, GetTransaction, GetTransactionReciept
+from ..utils.datasets import FullTx, Block, Transaction, TransactionReciept
 
 from httpx import Client
 from httpx import TimeoutException, ConnectError

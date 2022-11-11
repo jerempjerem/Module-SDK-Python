@@ -1,8 +1,8 @@
 from .utils.types import *
-from .ethereum import Ethereum
-from .central import Central
-from .nft import NFT
-from .metadata import Metadata
+from .modules.ethereum import Ethereum
+from .modules.central import Central
+from .modules.nft import NFT
+from .modules.metadata import Metadata
 
 from httpx import Client
 
