@@ -1,5 +1,5 @@
-from ..utils.types import Color, ResolveCollection
-from ..utils.datasets import Resolved
+from .types import Color, ResolveCollection
+from .datasets import Resolved
 
 from httpx import Client
 from httpx import TimeoutException, ConnectError

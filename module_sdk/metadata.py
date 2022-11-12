@@ -1,5 +1,5 @@
-from ..utils.types import Color, GetContractABI, GetNFTMetadata
-from ..utils.datasets import NFTMetadata, ContractABI
+from .types import Color, GetContractABI, GetNFTMetadata
+from .datasets import NFTMetadata, ContractABI
 
 from httpx import Client
 from httpx import TimeoutException, ConnectError

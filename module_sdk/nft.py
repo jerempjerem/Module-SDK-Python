@@ -1,10 +1,10 @@
-from ..utils.types import Color, GetCollectionFloor, GetCollectionInfo, GetCollectionIntersection, GetCollectionRankings, GetBatchUserTradingStats
-from ..utils.types import GetCollectionsOwned, GetCollectionSpread, GetCollectionStats, GetListings, GetMintVolume, GetSales
-from ..utils.types import GetTokenInfo, GetTokenOwner, GetTokensOwned, GetUserTradingHistory, GetUserTradingStats
+from .types import Color, GetCollectionFloor, GetCollectionInfo, GetCollectionIntersection, GetCollectionRankings, GetBatchUserTradingStats
+from .types import GetCollectionsOwned, GetCollectionSpread, GetCollectionStats, GetListings, GetMintVolume, GetSales
+from .types import GetTokenInfo, GetTokenOwner, GetTokensOwned, GetUserTradingHistory, GetUserTradingStats
 
 
-from ..utils.datasets import Collection, CollectionFloor, CollectionOwnerSpread, CollectionRanking, CollectionsOwned, BatchUserTradingStatistics
-from ..utils.datasets import Listing, Sale, Statistics, TokenInfo, TokenOwner, TokensOwned, UserTradingHistory, UserTradingStatistics, MintVolume
+from .datasets import Collection, CollectionFloor, CollectionOwnerSpread, CollectionRanking, CollectionsOwned, BatchUserTradingStatistics
+from .datasets import Listing, Sale, Statistics, TokenInfo, TokenOwner, TokensOwned, UserTradingHistory, UserTradingStatistics, MintVolume
 
 from httpx import Client
 from httpx import TimeoutException, ConnectError
