@@ -1,6 +1,6 @@
 # Module Python SDK (Non official)
 
-**About Module 📖✨**
+**About Module**
 
 Module is providing endpoints to democratize access to existing data on a free and open blockchain. With Module, data is made available to developers without the hassle of creating custom data pipelines or running a full Ethereum node.
 
@@ -12,15 +12,15 @@ Leave the heavy lifting to us. Ship faster using Module’s diverse set of endpo
  - [Module Discord](https://discord.com/invite/module)
  - [Module API Documentation](https://module.readme.io/reference/about)
 
-**Information 📖**
+**Information **
 
 Some methods have names that differ from their api counterparts on the documentation as a result of consistency for the SDK.
 
-**Features ✨**
+**Features **
 
 Have a specific feature that you want added? Open a ticket in their discord and they can discuss building it for you!
 
-**Feedback/Issues 🤝**
+**Feedback/Issues **
 
 We welcome feedback and pull requests! Either open a ticket in they discord or open an issue on the repo and we can look into it!
 
